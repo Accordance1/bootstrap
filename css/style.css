@@ -1,0 +1,290 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* end-of-css-reset*/
+
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+header {
+
+    height: 10vh;
+    background-color: rgb(24, 35, 97);
+    display: flex;
+    width: 100%;
+}
+header h3{
+    font-family: bold;
+} 
+header p{
+    font-family: Regular;
+}
+
+h3 {
+    padding: 0 100px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+ul {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+header ul li a:hover {
+    color: rgb(26, 188, 156);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* end-of-header */
+
+/* banner */
+#hero{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.hero {
+    height: 90vh;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero #banner-img {
+    margin-top: 90px;
+}
+
+.hero-inner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 15px;
+    font-family: bold;
+}
+
+.hero-inner img {
+    width: 15%;
+    margin-top: 8px;
+}
+
+.hero-inner p {
+    font-size: 20px;
+}
+
+
+/* end-of-banner */
+
+/* about */
+#about {
+    height: 100vh;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.about h2 {
+    font-size: 50px;
+    margin-top: 15px;
+    font-family: bold;
+}
+
+/* end-of-about */
+/* about */
+#about{
+    height: 60vh;
+    background-color: rgb(26, 188, 156);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.about h2{
+    font-size:30px;
+    margin-top: 20px;
+    font-family: bold;
+}
+
+#about .text{
+ display:flex;
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-family: Regular;
+ /* text-align: center; */
+}
+#about .text .text-inner  p{
+ width: 60%;
+ padding-left: 100px;
+ text-align: left;
+ margin-bottom: 50;
+ font-family: Regular;
+  
+}
+#about a{
+ text-decoration: none;
+ color:rgb(255, 255, 255) ;
+ font-size: 15px;
+ padding: 10px 20px;
+ border: 1px solid white;
+ border-radius:10px;
+
+}
+/* end-of-about */
+
+/* portfolio */
+#portfolio{
+ height:100vh;
+ text-align: center;
+}
+#portfolio h2{
+    font-family: bold;
+}
+.row-1 img{
+    width: 26%;
+    height: 9%;
+    border-radius: 16px;
+}
+.row-2 img{
+    width: 26%;
+    height: 9%;
+    border-radius: 16px;
+}
+/* end-of portfolio */
+
+/* contact me */
+.contact {
+     padding-top: 90px;
+     padding-bottom: 90px;
+     text-align: center;
+
+}
+.contact h2{
+    text-align: center;
+    font-family: bold;
+    
+}
+.contact img{
+    margin-left: 1%;
+}
+
+#contacts input{
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+}
+input{
+    width: 50%;
+    height: 5%;
+    margin: 10px;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(234, 241,244);
+    padding: 20px;
+
+}
+.butt{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    margin-right: 46%;
+
+}
+/* end of contact */
+
+/* footer*/
+
+.footer{
+    background-color: #333;
+    display: flex;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.footer-inner h3{
+    font-size: 25px;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 40%;
+    font-family: Regular;
+}
+.footer-inner p{
+    padding-left: 29%;
+    font-family: Regular;
+}
+.footer-inner1 h3{
+    font-size: 20px;
+    font-family: bold;
+}
+.footer-inner1 img{
+    width: 4%;
+    margin-left: 3%;
+}
+.footer-inner1{
+    text-align: center;
+}
+.footer-inner1 p{
+    padding-left: 15%;
+    font-family: Regular;
+}
+.footer-inner2 h3{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 40%;
+    font-family: bold;
+}
+.footer-inner1{
+    margin-left: 8%;
+}
+.footer-inner2{
+   /* margin-left: 10%;*/
+}
+.footer-inner{
+    margin-left: 5%;
+}
+.footer-inner2 p{
+    padding-left: 20%;
+    text-align: center;
+    width: 100%;
+    font-family: Regular;
+}
+.footer-inner2 span{
+    color: rgb(26, 188, 156);
+}
+.footer2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.footer2 img{
+    width: 1%;
+}
+.footer2 img{
+    color: aliceblue;
+}
